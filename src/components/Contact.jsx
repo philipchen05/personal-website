@@ -11,7 +11,7 @@ function Contact() {
                 <button><img src={instagram} className="transition-1 duration-700 hover:scale-110 size-10 sm:size-12 md:size-14 lg:size-16" alt="Instagram Logo." onClick={() => window.open("https://www.instagram.com/philip__chen/", "_blank")} /></button>
                 <button><img src={github} className="transition-1 duration-700 hover:scale-110 rounded-xl size-10 sm:size-12 md:size-14 lg:size-16" alt="GitHub Logo." onClick={() => window.open("https://github.com/philipchen05", "_blank")} /></button>
             </div>
-            <h1 className="leading-5 text-center font-body text-sm md:text-base lg:text-lg text-white font-thin">
+            <h1 className="leading-5 text-center font-body text-lg md:text-xl lg:text-2xl text-white font-thin">
             <br />
             EMAIL: philipchen935@gmail.com
             <br />
