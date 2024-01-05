@@ -1,2 +1,2 @@
 # personal-website
-An old personal portfolio website created in HTML. The website features lessons/tutorials on various programming concepts.
+My personal website created with Node.js, React, Tailwind CSS, and Javascript.
