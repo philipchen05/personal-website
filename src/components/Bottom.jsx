@@ -7,18 +7,18 @@ function Bottom() {
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
     const isPortrait = useMediaQuery({ query: '(orientation: portrait)' });
     var className = "";
-    var fixed = false;
+    var isLandscape = true;
     
     if(isPortrait || isTabletOrMobile) {
         className = "flex flex-col";
+        isLandscape = false;
     } else {
         className = "md:pt-2 lg:pt-2 grid grid-cols-2";
-        fixed = true;
     }
     
     return(
         <div className={className}>
-            <Subtitle fixed={fixed} />
+            <Subtitle isLandscape={isLandscape} />
             <Content />
         </div>
     );
