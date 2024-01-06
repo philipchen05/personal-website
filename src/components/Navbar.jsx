@@ -7,7 +7,7 @@ function Navbar(props) {
         <div className="mb-6 md:mb-8 lg:mb-10 flex flex-row text-white justify-evenly">
             <Button name="About" f={props.func} num={1} />
             <Button name="Projects" f={props.func} num={2} />
-            <button className="transition-1 duration-700 hover:scale-110 font-display text-lg md:text-xl lg:text-2xl text-white font-light" onClick={() => window.open(resume, "_blank")}>Resume</button>
+            <button className="transition-1 duration-700 hover:scale-110 font-display text-xl md:text-2xl lg:text-2xl text-white font-light" onClick={() => window.open(resume, "_blank")}>Resume</button>
             <Button name="Contact" f={props.func} num={3} />
         </div>
     );
