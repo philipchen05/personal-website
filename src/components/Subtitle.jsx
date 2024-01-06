@@ -11,7 +11,7 @@ function Subtitle(props) {
 
     return(
         <div className={divClass}>
-            <h1 className="text-lg md:text-xl lg:text-2xl font-body text-white tracking-widest">COMPUTER SCIENCE @UWATERLOO</h1>
+            <h1 className="text-xl md:text-2xl lg:text-2xl font-body text-white tracking-widest">COMPUTER SCIENCE @UWATERLOO</h1>
         </div>
     );
 }
