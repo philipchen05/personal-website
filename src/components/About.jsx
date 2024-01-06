@@ -1,27 +1,25 @@
 import React from "react";
-import Subtitle from "./Subtitle";
-import Content from "./Content";
-import { useMediaQuery } from "react-responsive";
 
-function Bottom() {
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
-    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' });
-    var className = "";
-    var isLandscape = true;
-    
-    if(isPortrait || isTabletOrMobile) {
-        className = "flex flex-col";
-        isLandscape = false;
-    } else {
-        className = "md:pt-2 lg:pt-2 grid grid-cols-2";
-    }
-    
+function About() {
     return(
-        <div className={className}>
-            <Subtitle isLandscape={isLandscape} />
-            <Content />
+        <div className="animate-in fade-in-5 slide-in-from-bottom-5 duration-1000">
+            <h1 className="font-body text-xl md:text-2xl lg:text-2xl text-white font-thin">
+            As a lover of math and computer science, my dream is to work among the tech giants one day to
+            improve society through algorithms and computational innovation. I'm also very interested in
+            software development, machine learning, and AI.
+            </h1>
+            <br />
+            <h1 className="font-body text-xl md:text-2xl lg:text-2xl text-white font-thin">
+            Outside of tech, I'm a very avid language learner. I'm fluent in English, Mandarin, and French —
+            I am currently working on mastering Spanish. One of my life goals is to become a polyglot and be
+            able to communicate with people all over the world.
+            </h1>
+            <br />
+            <h1 className="font-body text-xl md:text-2xl lg:text-2xl text-white font-thin">
+            In my spare time, I enjoy listening to music, going to the gym, and kicking back to classic mobster films.
+            </h1>
         </div>
     );
 }
 
-export default Bottom;
+export default About;
