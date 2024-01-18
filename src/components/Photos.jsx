@@ -1,6 +1,6 @@
 import React from "react";
-import photo1 from "./images/photo1.jpg";
-import photo2 from "./images/photo2.jpg";
+import photo1 from "./images/photo1.webp";
+import photo2 from "./images/photo2.webp";
 
 function Photos() {
     return(
