@@ -1,7 +1,7 @@
 import React from "react";
 import linkedin from "./images/linkedin.webp";
 import instagram from "./images/instagram.webp";
-import github from "./images/github.png"
+import github from "./images/github.webp"
 
 function Contact() {
     return(
