@@ -26,7 +26,7 @@ function Content() {
     }
 
     return(
-        <div data-aos="fade-in" data-aos-duration="3000" data-aos-delay="800" className="pt-6 md:pt-8 lg:pt-10 flex-col">
+        <div className="animate-in fade-in duration-4000 pt-6 md:pt-8 lg:pt-10 flex-col">
             <Navbar func={changeState} />
             {renderBody(state)}
         </div>
