@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       transitionDuration: {
+        '1500': '1500ms',
         '2000': '2000ms',
+        '3400': '3400ms',
+        '4000': '4000ms',
       }
     },
     fontFamily: {
