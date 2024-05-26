@@ -11,6 +11,10 @@ module.exports = {
         '2000': '2000ms',
         '3400': '3400ms',
         '4000': '4000ms',
+      },
+      screens: {
+        'xxs': '300px',
+        'xs': '450px',
       }
     },
     fontFamily: {
